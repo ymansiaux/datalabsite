@@ -1,0 +1,43 @@
+---
+title: Les applications
+menu: main
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+opts_chunk$set(echo = FALSE)
+```
+
+
+## Les applications
+
+::::: {.row}
+
+::: {.col-xs-12 .col-md-4}
+
+
+### Janus
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent justo mauris, ultricies ut erat quis, mattis convallis felis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas interdum placerat mattis. Morbi laoreet vel libero at blandit. Phasellus erat dolor, hendrerit dignissim dui ac, porta ultricies sapien. Duis ultrices sagittis ante eget dictum. Nam eget quam vel urna feugiat posuere at ac dolor. Sed at rhoncus turpis, id accumsan odio. Morbi vitae eleifend urna. Donec nibh felis, scelerisque at molestie ut, tristique vitae lorem. Quisque sed magna dolor. Quisque sed erat a tellus molestie imperdiet. Nulla at convallis mi. Vestibulum vel dui id nisl consequat congue eu et lacus.
+
+:::
+
+::: {.col-xs-12 .col-md-4}
+
+### John
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent justo mauris, ultricies ut erat quis, mattis convallis felis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas interdum placerat mattis. Morbi laoreet vel libero at blandit. Phasellus erat dolor, hendrerit dignissim dui ac, porta ultricies sapien. Duis ultrices sagittis ante eget dictum. Nam eget quam vel urna feugiat posuere at ac dolor. Sed at rhoncus turpis, id accumsan odio. Morbi vitae eleifend urna. Donec nibh felis, scelerisque at molestie ut, tristique vitae lorem. Quisque sed magna dolor. Quisque sed erat a tellus molestie imperdiet. Nulla at convallis mi. Vestibulum vel dui id nisl consequat congue eu et lacus.
+
+:::
+
+::: {.col-xs-12 .col-md-4}
+
+### Jean
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent justo mauris, ultricies ut erat quis, mattis convallis felis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas interdum placerat mattis. Morbi laoreet vel libero at blandit. Phasellus erat dolor, hendrerit dignissim dui ac, porta ultricies sapien. Duis ultrices sagittis ante eget dictum. Nam eget quam vel urna feugiat posuere at ac dolor. Sed at rhoncus turpis, id accumsan odio. Morbi vitae eleifend urna. Donec nibh felis, scelerisque at molestie ut, tristique vitae lorem. Quisque sed magna dolor. Quisque sed erat a tellus molestie imperdiet. Nulla at convallis mi. Vestibulum vel dui id nisl consequat congue eu et lacus.
+
+
+:::
+
+:::::
+
