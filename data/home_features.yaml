@@ -1,0 +1,26 @@
+
+- weight: 1
+  name: "Expertise R"
+  img: "/img/r-project.svg"
+  bgcontent: "#000000AA"
+  main: >
+    Forte de plus de 15 ans d'expérience autour du logiciel R, ArData propose
+    son expertise pour la mise à disposition de solutions liées à cette technologie.
+  description: >
+    Nous avons une forte compétence dans le langage R. Nous savons déployer vos programmes
+    R, les auditer, vous développer des nouveaux packages, mettre à disposition des outils
+    shiny ou encore mettre en place un service R distribué dans votre système d'information.
+  link: "expertise-r"
+
+- weight: 2
+  name: "Formations R"
+  img: "/img/user-graduate.svg"
+  main: >
+    Nous réalisons des formations à l'utilisation de R et à la data-science.
+  description: >
+    Nous formons régulièrement des équipes à l'utilisation de R. Nous organisons des sessions
+    à votre convenance et selon vos besoins. Nos formations couvrent l'ensemble de la chaîne de
+    traitement, de l'acquisition de la donnée jusqu'à sa restitution ou jusqu'à l'exploitation
+    des règles d'aide à la décision dégagées.
+  link: "publications"
+

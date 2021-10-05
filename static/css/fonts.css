@@ -1,0 +1,30 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 22px;
+  letter-spacing: 0.1pt;
+  font-size: 15px;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 70px;
+  text-align: justify;
+}
+code {
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 85%;
+}
+
+a {
+    color: #1d8293;
+    text-decoration: none;
+    font-weight: bold;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #222222;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    text-align: left;
+    line-height: 1.5;
+    letter-spacing: .05rem;
+}

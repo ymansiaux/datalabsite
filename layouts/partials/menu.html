@@ -1,0 +1,38 @@
+<nav class="navbar">
+  <span id="navbar-toggle">
+      <i class="fas fa-bars"></i>
+  </span>
+  <a href="{{ $.Site.BaseURL }}" id="logo"><img alt="ardata" src="{{ "./img/bordeaux-metropole-logo.png" | relURL }}"></a>
+  <ul id="main-nav">
+    {{ $currentPage := . }}
+    {{ range .Site.Menus.main }}
+    <li>
+      <a
+        class="nav-links {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}active{{ end }}"
+        href="{{ .URL | relURL }}">
+        {{ .Pre }}{{ .Name }}
+      </a>
+    </li>
+    {{ end }}
+
+
+  </ul>
+
+</nav>
+<script>
+let mainNav=document.getElementById('main-nav');
+let navbarToggle=document.getElementById('navbar-toggle');
+
+navbarToggle.addEventListener('click',function(){
+
+    if(this.classList.contains('active')){
+        mainNav.style.display="none";
+        this.classList.remove('active');
+    }
+    else{
+        mainNav.style.display="flex";
+        this.classList.add('active');
+
+    }
+});
+</script>

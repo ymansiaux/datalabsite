@@ -1,0 +1,73 @@
+.jarallax {
+    position: relative;
+    z-index: 0;
+    color:white;
+    font-size: 1em;
+}
+.jarallax > .jarallax-img {
+    position: absolute;
+    object-fit: cover;
+    /* support for plugin https://github.com/bfred-it/object-fit-images */
+    font-family: 'object-fit: cover;';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.jarallax-content {
+  margin-top: 0px;
+  padding: 30px;
+}
+
+.jarallax p {
+  padding-top: 10pt;
+  margin: 10px;
+}
+
+.jarallax h2 {
+    color: white;
+}
+.jarallax h3 {
+    color: white;
+}
+
+.jarallax a.button {
+    text-decoration: none;
+    background-color: white;
+    border-radius: 5px;
+    color: #1d8293;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border: 0;
+    /*border: 2px solid #ccc;*/
+}
+
+.jarallax .icon {
+  color: white;
+  border-color: transparent;
+  font-size: 15rem;
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+  .jarallax .icon {
+    font-size: 3em;
+  }
+  .jarallax-content {
+    margin-top: 30px;
+    padding: 0px;
+  }
+}
+
+
+

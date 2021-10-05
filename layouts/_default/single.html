@@ -1,0 +1,12 @@
+{{ partial "header.html" . }}
+
+<main>
+
+<h1 class="page-title">{{ .Title | markdownify }}</h1>
+
+
+{{ .Content }}
+
+</main>
+
+{{ partial "footer.html" . }}

@@ -1,0 +1,51 @@
+languageCode = "fr"
+DefaultContentLanguage = "fr"
+
+baseurl = "https://data.bordeaux-metropole.fr/"
+publishDir = "www"
+title = "data bordeaux-metropole"
+theme = "hugo-xmin"
+googleAnalytics = ""
+disqusShortname = ""
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+preserveTaxonomyNames = true
+footnotereturnlinkcontents = "↩"
+[author]
+    name = "Bordeaux Métropole datalab"
+    email = "data@bordeaux-metropole.fr"
+
+[permalinks]
+    post = "/post/:year/:month/:day/:slug/"
+
+
+[params]
+    footer = "Copyright &copy; [Bordeaux Métropole](https://www.bordeaux-metropole.fr/) 2019 -- 2019 Tous droits réservés"
+
+[params.features]
+    enable = true
+
+
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    disable = true
+  [privacy.instagram]
+    disable = true
+  [privacy.twitter]
+    disable = true
+  [privacy.vimeo]
+    disable = true
+  [privacy.youtube]
+    disable = true
+
+[params.widgets]
+    categories = true
+    tags = true
+[params.carousel]
+    enable = true
+[params.recent_posts]
+    enable = true
+
+
+

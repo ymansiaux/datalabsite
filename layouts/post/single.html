@@ -1,0 +1,57 @@
+{{ partial "header.html" . }}
+
+<main>
+
+
+<div class="article-meta">
+  {{ if ( (isset .Params "customtitle") ) }}
+    <h1><span class="title">{{ .Params.customtitle | markdownify }}</span></h1>
+  {{ else }}
+    <h1><span class="title">{{ .Title | markdownify }}</span></h1>
+  {{ end }}
+
+  <p>{{ .Params.author | markdownify }}</p>
+  <p>
+    {{ if (gt .Params.date 0) }}<small>{{ .Date.Format "2006/01/02" }}</small>{{ end }}
+  </p>
+
+{{ if ( (isset .Params "thumbnailimage")) }}
+    {{ if ( (isset .Params "thumbnailimageshow")) }}
+        {{ if (eq .Params.thumbnailimageshow "true") }}
+            <div class="row top-xs">
+            <div class="col-xs-offset-3 col-xs-6">
+                <p>
+                <img src="{{ .Params.thumbnailimage | absURL }}"/>
+                </p>
+            </div>
+            </div>
+        {{ else }}
+            <!--Let some space if no image -->
+            </br>
+        {{ end }}
+    {{ else }}
+        <div class="row top-xs">
+        <div class="col-xs-offset-3 col-xs-6">
+            <p>
+            <img src="{{ .Params.thumbnailimage | absURL }}"/>
+            </p>
+        </div>
+        </div>
+    {{ end }}
+{{ end }}
+
+
+</div>
+
+<div class="row top-xs">
+
+  <div class="col-xs-12">
+    {{ .Content }}
+  </div>
+</div>
+
+
+
+</main>
+
+{{ partial "footer.html" . }}

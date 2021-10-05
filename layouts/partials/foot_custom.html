@@ -1,0 +1,26 @@
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+<script src="{{ "/js/owl.carousel.min.js" | relURL }}"></script>
+<script>
+/*jarallax(document.querySelectorAll('.jarallax'), {
+    speed: 1.5
+});*/
+$(document).ready(function(){
+  $(".owl-carousel").owlCarousel({
+    center:true,
+    items:3,
+    slideBy:3,
+    margin:15,
+    responsiveClass:true,
+    loop: true,
+    autoplay: true,
+    autoplayTimeout: 1520*3,
+    smartSpeed: 1500,
+    animateIn: 'linear',
+    animateOut: 'linear'
+
+  });
+});
+</script>

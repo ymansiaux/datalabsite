@@ -1,0 +1,20 @@
+{{ if .Site.Params.widgets.categories }}
+{{ if isset .Site.Taxonomies "categories" }}
+{{ if not (eq (len .Site.Taxonomies.categories) 0) }}
+
+<div>
+
+    <h4>{{ i18n "categoriesTitle" }}</h4>
+
+    <div>
+        <ul class="tags">
+            {{ range $name, $items := .Site.Taxonomies.categories }}
+            <li class="tag"><a href="{{ $.Site.BaseURL }}categories/{{ $name | urlize | lower }}">{{ $name }} ({{ len $items }})</a>
+            </li>
+            {{ end }}
+        </ul>
+    </div>
+</div>
+{{ end }}
+{{ end }}
+{{ end }}

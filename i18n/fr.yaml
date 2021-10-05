@@ -1,0 +1,24 @@
+- id: tagsTitle
+  translation: "Tags"
+- id: categoriesTitle
+  translation: "Catégories"
+- id: recommandedSites
+  translation: "Sites recommandés"
+- id: services
+  translation: "Nos services"
+- id: recent_posts
+  translation: "Nos derniers posts"
+- id: customers
+  translation: "Ils nous font confiance"
+- id: more
+  translation: "En savoir plus..."
+- id: readthis
+  translation: "Consulter"
+- id: publist
+  translation: "Notre catalogue de publication"
+- id: duration
+  translation: "Durée : "
+- id: message404
+  translation: "Oups, le lien que vous avez cliquez mène à une page qui n'existe pas ou plus..."
+- id: postrelatedtag
+  translation: "Nos articles avec le tag"

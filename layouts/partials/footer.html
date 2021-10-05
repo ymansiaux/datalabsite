@@ -1,0 +1,15 @@
+<footer>
+  {{ partial "foot_custom.html" . }}
+  {{ with .Site.Params.footer }}
+  {{ . | markdownify }}
+  {{ end }}&nbsp;
+</footer>
+<div class="navhelper">
+  <span>
+    <a href="javascript:window.scroll(0,0);">
+      <i class="fas fa-arrow-circle-up"></i>
+    </a>
+  </span>
+</div>
+  </body>
+</html>

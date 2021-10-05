@@ -1,0 +1,60 @@
+{{ partial "header.html" . }}
+
+
+<main>
+
+<div class="row">
+  <div class="col-xs-offset-2 col-md-8">
+    {{ .Content }}
+  </div>
+</div>
+
+{{ if isset .Site.Params "features" }}
+{{ if .Site.Params.features.enable }}
+
+<div class="row top-xs">
+  <div class="col-xs-12">
+    <div class="row top-xs">
+
+    {{ range $index, $element := sort .Site.Data.home_features "weight" }}
+
+      <div class="col-md-6 col-xs-12">
+            <div class="row middle-xs">
+              <div class="col-xs-2">
+                {{ if ( (isset $element "img")) }}
+                  <img src="{{ $element.img | relURL }}"/>
+                {{ end }}
+              </div>
+              <div class="col-xs-10"><h2>{{ $element.name }}</h2></div>
+            </div>
+
+            {{ if ( (isset $element "main")) }}
+              <p>{{ $element.main | markdownify }}</p>
+            {{ end }}
+
+            {{ if ( (isset $element "description")) }}
+            <p>{{ $element.description | markdownify }}</p>
+            {{ end }}
+            {{ if ( (isset $element "link")) }}
+            <p><a href="./{{ $element.link }}" class="button">{{ i18n "more" }}</a></p>
+            {{ end }}
+
+      </div>
+
+    {{ end }}
+    </div>
+  </div>
+
+
+</div>
+{{ end }}
+{{ end }}
+<div class="row">
+  <div class="col-xs-offset-2 col-md-8">
+    {{ partial "recent_posts.html" . }}
+  </div>
+</div>
+
+
+</main>
+{{ partial "footer.html" . }}
