@@ -15,7 +15,7 @@
 
   <h1>{{ i18n "publist" }}</h1>
   <div class="row top-xs">
-    {{ $paginator := .Paginate (where .Pages "Type" "publications") }}
+    {{ $paginator := .Paginate (where .Pages "Type" "apps") }}
     {{ template "_internal/pagination.html" . }}
     {{ range $paginator.Pages }}
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">

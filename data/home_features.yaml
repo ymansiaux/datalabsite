@@ -10,7 +10,7 @@
     Nous avons une forte compétence dans le langage R. Nous savons déployer vos programmes
     R, les auditer, vous développer des nouveaux packages, mettre à disposition des outils
     shiny ou encore mettre en place un service R distribué dans votre système d'information.
-  link: "expertise-r"
+  link: "posts"
 
 - weight: 2
   name: "Formations R"
@@ -22,5 +22,5 @@
     à votre convenance et selon vos besoins. Nos formations couvrent l'ensemble de la chaîne de
     traitement, de l'acquisition de la donnée jusqu'à sa restitution ou jusqu'à l'exploitation
     des règles d'aide à la décision dégagées.
-  link: "publications"
+  link: "apps"
 

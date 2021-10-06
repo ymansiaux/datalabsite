@@ -15,3 +15,11 @@ gallery:
 
 C'est le premier message du blog.
 
+```{r}
+library(xtradata)
+```
+
+```{r}
+head(xtradata_requete_features(key="DATAZBOUBB", typename = "ST_PARK_P"))
+```
+

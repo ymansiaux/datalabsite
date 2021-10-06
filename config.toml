@@ -34,13 +34,14 @@ footnotereturnlinkcontents = "↩"
 
 [[menu.main]]
     name = "Nos articles"
-    url = "/papers/"
+    url = "/post/"
     weight = 3
 
 [[menu.main]]
     name = "A propos"
     url = "/about/"
     weight = 4
+
 
 [privacy]
   [privacy.disqus]
