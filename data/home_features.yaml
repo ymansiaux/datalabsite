@@ -24,3 +24,26 @@
     des règles d'aide à la décision dégagées.
   link: "apps"
 
+- weight: 3
+  name: "Les outils"
+  img: "/img/logo-small.png"
+  main: >
+    Nous réalisons des formations à l'utilisation de R et à la data-science.
+  description: >
+    Nous formons régulièrement des équipes à l'utilisation de R. Nous organisons des sessions
+    à votre convenance et selon vos besoins. Nos formations couvrent l'ensemble de la chaîne de
+    traitement, de l'acquisition de la donnée jusqu'à sa restitution ou jusqu'à l'exploitation
+    des règles d'aide à la décision dégagées.
+  link: "tools"
+
+- weight: 4
+  name: "L'equipe"
+  img: "/img/logo-small.png"
+  main: >
+    Nous réalisons des formations à l'utilisation de R et à la data-science.
+  description: >
+    Nous formons régulièrement des équipes à l'utilisation de R. Nous organisons des sessions
+    à votre convenance et selon vos besoins. Nos formations couvrent l'ensemble de la chaîne de
+    traitement, de l'acquisition de la donnée jusqu'à sa restitution ou jusqu'à l'exploitation
+    des règles d'aide à la décision dégagées.
+  link: "about"

@@ -1,9 +1,8 @@
 ---
 title: Accueil
-menu: main
-name: Home
-weight: 1
 slug: "home"
+menu: main
+weight: 1
 ---
 
 ```{r setup, include=FALSE}
@@ -13,7 +12,7 @@ opts_chunk$set(echo = FALSE)
 
 Bienvenue sur le site du datalab de Bordeaux Métropole
 
-<h1> Toto </h1>
+<h1> Toto 2  </h1>
 
 ::: {.timeline}
 

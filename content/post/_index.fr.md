@@ -3,4 +3,4 @@ menu: main
 ---
 
 
-coucou
+Bienvenue sur la page des articles

@@ -13,4 +13,4 @@ library(htmltools)
 
 ## Lorem ipsum
 
-Bienvenue sur la page des apps
+Bienvenue sur la page des outils

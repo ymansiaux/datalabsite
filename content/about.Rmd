@@ -1,7 +1,8 @@
 ---
-title: L'équipe
+title: A propos
 menu: main
-weight: 8
+slug: "team"
+weight: 4
 ---
 
 ```{r setup, include=FALSE}
