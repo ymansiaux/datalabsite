@@ -1,8 +1,8 @@
 languageCode = "fr"
 DefaultContentLanguage = "fr"
 
-baseURL = "https://datalab.bordeaux-metropole.fr/"
-relativeurls = false
+baseURL = "/"
+relativeurls = true
 
 enableEmoji = true
 
