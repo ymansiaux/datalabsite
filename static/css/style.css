@@ -26,13 +26,6 @@ hr {
   color: #ddd;
 }
 
-/* code */
-pre {
-  padding: 1em;
-  overflow-x: auto;
-}
-pre code { background: none; }
-
 /* misc elements */
 img, iframe, video { max-width: 100%; }
 main { hyphens: auto; }

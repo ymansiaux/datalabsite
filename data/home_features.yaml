@@ -1,7 +1,7 @@
 
 - weight: 1
   name: "Expertise R"
-  img: "/img/r-project.svg"
+  img: "/img/bordeaux-metropole-logo.png"
   bgcontent: "#000000AA"
   main: >
     Forte de plus de 15 ans d'expérience autour du logiciel R, ArData propose
@@ -14,7 +14,7 @@
 
 - weight: 2
   name: "Formations R"
-  img: "/img/user-graduate.svg"
+  img: "/img/logo-small.png"
   main: >
     Nous réalisons des formations à l'utilisation de R et à la data-science.
   description: >
