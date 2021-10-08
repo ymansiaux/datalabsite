@@ -17,7 +17,7 @@
 
 .article-meta h1 {
   text-align:center;
-  color:red;
+  color: var(--cerulean);
 }
 
 footer a { text-decoration: none; }
