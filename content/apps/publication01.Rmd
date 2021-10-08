@@ -1,17 +1,23 @@
 ---
 weight: 1
-title: "Découverte de l'écosystème R"
-summary: "Utilisation pratique de R via RStudio et acquisition des bases du langage"
-duration: "5 minutes de lecture"
+title: "Parkings hors voirie"
+summary: "Observation des taux d'occupation des parkings"
+duration: "2 minutes de lecture"
 tag: "apps"
+header_image: "fa fa-car" 
+slug: "parkings"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempus metus sed lacus rhoncus, quis consectetur quam sodales. Suspendisse tempus lacus vel enim fringilla, ac luctus est egestas. Nam feugiat, purus id aliquam accumsan, enim libero congue magna, a sollicitudin nisi nibh in dolor. Nunc rutrum efficitur erat ac auctor. Aliquam odio nisl, lobortis non lorem ut, tristique accumsan lacus. Aenean dictum, nibh quis semper lacinia, ipsum magna consequat turpis, ut finibus dui ligula sit amet tellus. Nulla lorem metus, volutpat facilisis semper vel, iaculis ut mi. Fusce vel elit ut est suscipit tempor id eget turpis. Cras scelerisque vestibulum mollis. Phasellus sodales risus sed feugiat vehicula. Ut at maximus urna. In fringilla gravida gravida. Praesent sit amet sollicitudin sapien. Donec aliquet ut quam non ornare.
+Cette application propose d'analyser les données d'occupation des parkings hors voirie de Bordeaux Métropole.
 
-Fusce ligula sem, gravida eu semper ac, interdum eget massa. Curabitur sit amet tellus mattis, porttitor lectus at, ultrices velit. Maecenas a est euismod, aliquet diam at, accumsan leo. Fusce a dui orci. Aliquam dictum tincidunt nisi quis luctus. Sed tincidunt mi non enim maximus dapibus. Nam dapibus, ipsum eget scelerisque congue, nisi lacus euismod tortor, a hendrerit massa mi mattis tortor. Aenean iaculis nec ligula id malesuada. Aliquam fringilla libero sed dolor ultricies, in blandit erat iaculis. Nullam malesuada tortor magna, sed cursus turpis finibus ac.
+Ces données sont présentes sur le portail [open data de Bordeaux Métropole](https://opendata.bordeaux-metropole.fr/explore/dataset/st_park_p/information/).
 
-Sed massa ipsum, dignissim quis sapien vel, tempus aliquet nulla. Fusce velit sapien, condimentum vel est ac, dignissim hendrerit enim. Quisque consectetur sodales purus, in sodales ligula pellentesque in. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus faucibus, erat sed faucibus aliquet, leo felis dictum augue, quis molestie sapien ligula non nulla. Praesent vitae orci lacinia, auctor ipsum vel, feugiat lorem. Suspendisse pellentesque dignissim mauris ut malesuada. Curabitur eu nisl nec mauris dapibus hendrerit. Aenean vitae lorem turpis.
+Cet outil permet d'étudier : 
 
-Nullam purus nulla, congue at nunc ut, tristique sodales erat. Pellentesque risus tellus, euismod sit amet aliquet in, pharetra non ipsum. Vivamus bibendum consectetur commodo. Pellentesque malesuada tempor gravida. Curabitur viverra lacinia interdum. Nunc facilisis rutrum hendrerit. Nam accumsan ullamcorper porta. Morbi feugiat mi mi, quis molestie purus sodales in. Nunc eget bibendum turpis. Cras eget mattis dolor, eget egestas libero. Vestibulum aliquam id urna bibendum aliquet. Sed volutpat augue nunc, eu consequat lacus tempus a. Fusce dignissim turpis vulputate sem suscipit, id tempor mauris consequat. Donec nisi ligula, dignissim ut quam eget, posuere fringilla turpis.
+- les taux d'occupation des parkings sur 1 période d'intérêt (1 journée, 1 semaine, 1 mois ou 1 année), pour 4 grands secteurs (l'hypercentre de Bordeaux, le centre de Bordeaux, la périphérie de Bordeaux et les parcs relais). Une sélection personnalisée de parkings peut également réalisée.
 
-Suspendisse elementum sed metus id pellentesque. Maecenas at elementum tortor. Nam et libero tincidunt, bibendum leo ut, feugiat augue. Vivamus magna tortor, tincidunt sed accumsan quis, sodales id velit. Nunc egestas, nisl vitae elementum dignissim, libero urna vehicula ligula, ut commodo justo lacus vel dui. Aenean congue lacus nunc, sit amet vehicula mi ultricies sed. Phasellus quis ornare nulla. Nullam leo erat, ullamcorper bibendum orci quis, congue aliquam ante. Aenean laoreet justo ac est porttitor, id porttitor odio tincidunt. Nulla velit massa, ullamcorper id molestie a, eleifend ac lacus. Nullam dapibus convallis ex ullamcorper feugiat. Ut vel diam libero. Nam blandit ultrices fringilla. Donec ornare sit amet neque sed consequat. In mattis nec arcu ut ornare. Proin non erat nisl.
+- les niveaux de saturation : quels parkings sont très occupés, au moins x heures dans une journée et au moins x jours dans une semaine ?
+
+Pour se connecter à l'application, utilisez votre login / mot de passe de session Windows.
+
+<p><a href="https://rstudio-connect.bordeaux-it.fr/occupationparkingsapp/" target="_blank" rel="noopener noreferrer" class="button">Accéder à l'application</a></p>
