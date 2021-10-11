@@ -9,6 +9,3 @@ library(fontawesome)
 library(htmltools)
 ```
 
-## Lorem ipsum
-
-Bienvenue sur la page des outils

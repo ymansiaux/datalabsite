@@ -43,3 +43,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent justo mauris, 
 
 :::::
 
+
+## Les outils
+
+On fait du R et c'est super cool (mettre des images des technos utilisées)

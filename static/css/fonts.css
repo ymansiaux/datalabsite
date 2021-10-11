@@ -62,9 +62,9 @@ h2 {
   color: var(--main-text-color);
 }
 
-h3 {
+h3, p {
   font-family: var(--regular-font-family);
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
