@@ -1,26 +1,37 @@
 
 - weight: 1
-  name: "Expertise R"
-  img: "/img/r-project.svg"
+  name: "Apps"
+  img: "/img/bordeaux-metropole-logo.png"
   bgcontent: "#000000AA"
   main: >
-    Forte de plus de 15 ans d'expérience autour du logiciel R, ArData propose
-    son expertise pour la mise à disposition de solutions liées à cette technologie.
+    On fait des applis
   description: >
-    Nous avons une forte compétence dans le langage R. Nous savons déployer vos programmes
-    R, les auditer, vous développer des nouveaux packages, mettre à disposition des outils
-    shiny ou encore mettre en place un service R distribué dans votre système d'information.
-  link: "expertise-r"
+    Avec des trucs cools dedans
+  link: "apps"
 
 - weight: 2
-  name: "Formations R"
-  img: "/img/user-graduate.svg"
+  name: "Blog"
+  img: "/img/logo-small.png"
   main: >
-    Nous réalisons des formations à l'utilisation de R et à la data-science.
+    On fait des articles
   description: >
-    Nous formons régulièrement des équipes à l'utilisation de R. Nous organisons des sessions
-    à votre convenance et selon vos besoins. Nos formations couvrent l'ensemble de la chaîne de
-    traitement, de l'acquisition de la donnée jusqu'à sa restitution ou jusqu'à l'exploitation
-    des règles d'aide à la décision dégagées.
-  link: "publications"
+    Avec des trucs cools dedans
+  link: "posts"
 
+- weight: 3
+  name: "Les outils"
+  img: "/img/logo-small.png"
+  main: >
+    On fait des outils open source
+  description: >
+    Ya plus qu'à s'en servir
+  link: "tools"
+
+- weight: 4
+  name: "L'equipe"
+  img: "/img/logo-small.png"
+  main: >
+    Qui qu'on est
+  description: >
+    Des gens très intelligents
+  link: "about"

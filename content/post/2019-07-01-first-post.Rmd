@@ -2,7 +2,9 @@
 title: Premier post
 author: Yohann Mansiaux
 date: '2019-07-01'
-slug: first-post
+slug: "first-post"
+manualsummary: "article de blog du datalab qui parle d'un truc trop cool"
+tag: "post"
 categories:
   - minor
 draft: no
@@ -12,6 +14,18 @@ gallery:
 - https://media.giphy.com/media/26ufeOvaaglizyq64/giphy.gif "Hi"
 ---
 
-
 C'est le premier message du blog.
+
+ddd
+
+
+
+
+```{r}
+library(xtradata)
+```
+
+```{r}
+head(xtradata_requete_features(key="DATAZBOUBB", typename = "ST_PARK_P"))
+```
 

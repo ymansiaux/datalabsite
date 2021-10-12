@@ -13,14 +13,16 @@
   </div>
 
 
-  <h1>{{ i18n "publist" }}</h1>
+  <h1>{{ i18n "toollist" }}</h1>
   <div class="row top-xs">
-    {{ $paginator := .Paginate (where .Pages "Type" "publications") }}
+    {{ $paginator := .Paginate (where .Pages "Type" "tools") }}
     {{ template "_internal/pagination.html" . }}
     {{ range $paginator.Pages }}
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
       <div class="boxlike boxlike-gray">
-        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+        <h2><a href="{{ .Permalink }}">{{ .Title }}</a>
+        <i class="{{ .Params.header_image }}"></i>
+</h2>
             <p>
               {{ .Summary }}
             </p>
@@ -28,6 +30,9 @@
               {{ .Params.duration | markdownify }}
             </p>
             <p><a href="{{ .Permalink }}" class="button">{{ i18n "more" }}</a></p>
+
+            <!-- <img src="{{ .Params.header_image | relURL }}"> -->
+
       </div>
     </div>
     {{ end }}

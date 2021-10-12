@@ -1,7 +1,8 @@
 ---
-title: L'équipe
+title: A propos
 menu: main
-weight: 8
+slug: "team"
+weight: 5
 ---
 
 ```{r setup, include=FALSE}
@@ -42,3 +43,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent justo mauris, 
 
 :::::
 
+
+## Les outils
+
+On fait du R et c'est super cool (mettre des images des technos utilisées)
