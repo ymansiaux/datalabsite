@@ -1,12 +1,11 @@
 languageCode = "fr"
 DefaultContentLanguage = "fr"
 
-baseURL = "datalabsite"
+baseURL = "https://git.scnbdx.fr/UVD/datalab/datalabsite.io"
 relativeurls = true
 
 enableEmoji = true
 
-publishDir = "www"
 title = "Datalab Bordeaux Métropole"
 theme = "hugo-xmin"
 
