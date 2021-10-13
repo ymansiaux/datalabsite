@@ -5,7 +5,7 @@ summary: "Restitution des résultats des élections 2020"
 duration: "2 minutes de lecture"
 tag: "apps"
 header_image: "fas fa-vote-yea" 
-slug: "parkings"
+slug: "app3"
 ---
 
 

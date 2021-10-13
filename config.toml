@@ -1,7 +1,7 @@
 languageCode = "fr"
 DefaultContentLanguage = "fr"
 
-baseURL = "https://git.scnbdx.fr/UVD/datalab/datalabsite.io"
+baseURL = "/"
 relativeurls = true
 
 enableEmoji = true
