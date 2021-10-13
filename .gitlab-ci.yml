@@ -1,8 +1,6 @@
 image: debian:buster-slim
 
 before_script:
-  - ENV http_proxy http://192.168.2.18:3128
-  - ENV https_proxy http://192.168.2.18:3128
   - apt-get update && apt-get -y install pandoc r-base
   - R -e "install.packages('blogdown',repos='http://cran.rstudio.com')"
   - R -e "blogdown::install_hugo()"
