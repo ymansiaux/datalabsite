@@ -7,9 +7,6 @@ before_script:
   - export HTTP_PROXY="http://bm-proxy.bordeaux-it.fr:8080/"
   - export HTTPS_PROXY="http://bm-proxy.bordeaux-it.fr:8080/"
 
-script:
-  - env | grep PROXY
-
 pages:
   script:
     - R -e "blogdown::build_site()"
