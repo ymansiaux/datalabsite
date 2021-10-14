@@ -4,6 +4,11 @@ before_script:
   - apt-get update && apt-get -y install pandoc r-base
   - R -e "install.packages('blogdown',repos='http://cran.rstudio.com')"
   - R -e "blogdown::install_hugo()"
+  - export HTTP_PROXY="http://bm-proxy.bordeaux-it.fr:8080/"
+  - export HTTPS_PROXY="http://bm-proxy.bordeaux-it.fr:8080/"
+
+script:
+  - env | grep PROXY
 
 pages:
   script:
