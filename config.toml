@@ -1,12 +1,11 @@
 languageCode = "fr"
 DefaultContentLanguage = "fr"
 
-baseURL = "https://datalab.bordeaux-metropole.fr/"
-relativeurls = false
+baseURL = "/"
+relativeurls = true
 
 enableEmoji = true
 
-publishDir = "www"
 title = "Datalab Bordeaux Métropole"
 theme = "hugo-xmin"
 
@@ -21,12 +20,6 @@ footnotereturnlinkcontents = "↩"
 [permalinks]
     post = "/post/:year/:month/:day/:slug/"
 
-
-[[menu.main]]
-    name = "Accueil"
-    url = "/"
-    weight = 1
-
 [[menu.main]]
     name = "Nos applications"
     url = "/apps/"
@@ -38,8 +31,8 @@ footnotereturnlinkcontents = "↩"
     weight = 3
 
 [[menu.main]]
-    name = "A propos"
-    url = "/about/"
+    name = "Nos outils"
+    url = "/tools/"
     weight = 4
 
 

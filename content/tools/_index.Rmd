@@ -1,7 +1,5 @@
 ---
 title: Nos articles
-categories: []
-tags: []
 ---
 
 ```{r setup, include=FALSE}
@@ -11,6 +9,3 @@ library(fontawesome)
 library(htmltools)
 ```
 
-## Lorem ipsum
-
-Bienvenue sur la page des apps

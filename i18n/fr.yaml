@@ -15,7 +15,11 @@
 - id: readthis
   translation: "Consulter"
 - id: publist
-  translation: "Notre catalogue de publication"
+  translation: "Notre catalogue de publications"
+- id: applist
+  translation: "Notre catalogue d'applications"
+- id: toollist
+  translation: "Notre catalogue d'outils"
 - id: duration
   translation: "Durée : "
 - id: message404
