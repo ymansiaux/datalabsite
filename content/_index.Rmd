@@ -12,7 +12,7 @@ opts_chunk$set(echo = FALSE)
 
 # Bienvenue sur le site du datalab de Bordeaux Métropole !
 
-## Le datalab est une plateforme d'analyse et de valorisation de la donnée, à destination des métiers et du citoyen
+## Le datalab est une plateforme d'analyse et de valorisation des données, à destination des agents de Bordeaux Métropole et des communes
 
 ### L'offre de service du datalab s'articule autour de :
 
