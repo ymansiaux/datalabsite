@@ -4,7 +4,7 @@ author: Yohann Mansiaux
 summary: Appli test
 date: '2021-10-26'
 slug: appli-test-3
-header_image: fa fa-car
+header_image: "../img/apps/random.jpg"
 categories:
   - apps
 tags:

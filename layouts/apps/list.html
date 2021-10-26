@@ -12,27 +12,36 @@
     </div>
   </div>
 
-
   <h1>{{ i18n "applist" }}</h1>
-  <div class="row top-xs">
+  <div class="row top-xs mh-100">
     {{ $paginator := .Paginate (where .Pages "Type" "apps") }}
     {{ template "_internal/pagination.html" . }}
     {{ range $paginator.Pages }}
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-      <div class="boxlike boxlike-gray">
-        <h2><a href="{{ .Permalink }}">{{ .Title }}</a>
-          <i class="{{ .Params.header_image }}"></i>
-          </h2>
-            <p> {{ .Summary }} </p>
-            <p><i class="far fa-clock"></i>
-              {{ .Params.duration | markdownify }}
-            </p>
-            <p><a href="{{ .Permalink }}" class="button">{{ i18n "more" }}</a></p>
 
-            <!-- <img src="{{ .Params.header_image | relURL }}"> -->
 
+    <div class="col-xs-12 col-sm-6">
+      <div class="row boxlike boxlike-gray middle-xs">
+
+
+          <div class="col-xs-4">
+            <!-- <img src = "https://ardata.fr/img/hexbin/rstudio.svg"> </img>               -->
+            <img src="{{ .Params.header_image }}" height = "75%">
+            <!-- <i class="{{ .Params.header_image }}"></i> -->
+           </div>
+
+        <div class="col-xs-8">
+          <h2><a href="{{ .Permalink }}">{{ .Title }}</a>
+            <i class="{{ .Params.header_image }}"></i>
+            </h2>
+              <p> {{ .Summary }} </p>
+              <!-- <p><i class="far fa-clock"></i>
+                {{ .Params.duration | markdownify }}
+              </p> -->
+              <p><a href="{{ .Permalink }}" class="button">{{ i18n "more" }}</a></p>
+        </div>
       </div>
     </div>
+
     {{ end }}
   </div>
 
