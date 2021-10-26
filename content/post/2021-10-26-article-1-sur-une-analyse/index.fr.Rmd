@@ -1,0 +1,14 @@
+---
+title: Article 1 sur une analyse
+author: Yohann Mansiaux
+date: '2021-10-26'
+slug: article-1-sur-une-analyse
+categories:
+  - analyse
+tags:
+  - energie
+manualsummary: "article de blog du datalab qui parle d'un truc trop cool"
+thumbnailImage: https://media.giphy.com/media/26ufeOvaaglizyq64/giphy.gif
+---
+
+Coucou
