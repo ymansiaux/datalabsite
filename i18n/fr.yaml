@@ -15,7 +15,7 @@
 - id: readthis
   translation: "Consulter"
 - id: publist
-  translation: "Notre catalogue de publications"
+  translation: "Notre liste de publications"
 - id: applist
   translation: "Notre catalogue d'applications"
 - id: toollist
