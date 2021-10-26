@@ -10,11 +10,3 @@ opts_chunk$set(echo = FALSE)
 library(fontawesome)
 library(htmltools)
 ```
-
-## Lorem ipsum
-
-Bienvenue sur la page des apps
-
-sss
-
-aaaaaaa

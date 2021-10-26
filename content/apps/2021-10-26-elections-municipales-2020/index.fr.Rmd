@@ -5,7 +5,7 @@ summary: Resultats des elections à Bordeaux
 duration: 1 minute
 date: '2021-10-26'
 slug: elections-municipales-2020
-header_image: "fa fa-car" 
+header_image: "../img/apps/elections.jpg" 
 categories:
   - apps
 tags:
