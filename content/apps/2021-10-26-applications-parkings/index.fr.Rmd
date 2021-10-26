@@ -1,11 +1,14 @@
 ---
-weight: 1
-title: "Parkings hors voirie"
+title: Applications parkings
+author: Yohann Mansiaux
 summary: "Observation des taux d'occupation des parkings"
-duration: "2 minutes de lecture"
-tag: "apps"
-header_image: "fa fa-car" 
-slug: "parkings"
+date: '2021-10-26'
+slug: applications-parkings
+header_image: fa fa-car
+categories:
+  - apps
+tags:
+  - mobilite
 ---
 
 Cette application propose d'analyser les données d'occupation des parkings hors voirie de Bordeaux Métropole.
