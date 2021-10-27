@@ -1,5 +1,5 @@
 ---
-title: Nos articles
+title: Nos outils
 ---
 
 ```{r setup, include=FALSE}

@@ -17,11 +17,11 @@
 
 {{ if ( (isset .Params "thumbnailimage")) }}
     {{ if ( (isset .Params "thumbnailimageshow")) }}
-        {{ if (eq .Params.thumbnailimageshow "true") }}
+        <!-- {{ if (eq .Params.thumbnailimageshow "true") }} -->
             <div class="row top-xs">
             <div class="col-xs-offset-3 col-xs-6">
                 <p>
-                <img src="{{ .Params.thumbnailimage | absURL }}"/>
+                <img src="{{ .Params.header_image | absURL }}"/>
                 </p>
             </div>
             </div>
@@ -33,7 +33,7 @@
         <div class="row top-xs">
         <div class="col-xs-offset-3 col-xs-6">
             <p>
-            <img src="{{ .Params.thumbnailimage | absURL }}"/>
+            <img src="{{ .Params.header_image | absURL }}"/>
             </p>
         </div>
         </div>
