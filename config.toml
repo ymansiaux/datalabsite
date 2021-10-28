@@ -14,7 +14,7 @@ disqusShortname = ""
 
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
-preserveTaxonomyNames = true
+# preserveTaxonomyNames = true
 footnotereturnlinkcontents = "↩"
 
 [permalinks]
@@ -35,6 +35,10 @@ footnotereturnlinkcontents = "↩"
     url = "/tools/"
     weight = 4
 
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 30
 
 [privacy]
   [privacy.disqus]
@@ -82,3 +86,6 @@ footnotereturnlinkcontents = "↩"
 [params.recent_posts]
     enable = true
 
+[taxonomies]
+  tag = "tags"
+  category = "categories"
