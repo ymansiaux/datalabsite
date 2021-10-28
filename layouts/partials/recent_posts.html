@@ -1,21 +1,25 @@
 {{ if isset .Site.Params "recent_posts" }}
 {{ if .Site.Params.recent_posts.enable }}
-  <h3>{{ i18n "recent_posts" }}</h3>
-  <div class="owl-carousel" style="display: flex;align-items: center;">
+<h3>{{ i18n "recent_posts" }}</h3>
+<div class="owl-carousel" style="display: flex;align-items: center;">
 
-  {{ $posts := .Paginate (where .Data.Pages "Type" "post") }}
-  {{ range $posts.Pages }}
+  {{ $posts := .Paginate (where .Site.Pages "Type" "in" (slice  "apps" "post")) }}
+
+  {{ range sort $posts.Pages "Params.date" "desc" }}
+  {{ if isset .Params "date"}}
+
   <div>
-    {{ if isset .Params "thumbnailimage" }}
-    <p><img src="{{ .Params.thumbnailimage | absURL }}" style="width:100%;" /></p>
+    {{ if isset .Params "header_image" }}
+    <p><img src="{{ .Params.header_image | absURL }}" style="width:50%;" /></p>
     {{ end }}
     <p>
-      <a href="{{ .Permalink }}">{{ .Title }}</a>
+      <a href="{{ .Permalink }}">{{ .Params.Title }}</a>
       {{ if (gt .Params.date 0) }}<br><small>{{ .Date.Format "2006/01/02" }}</small>{{ end }}
     </p>
   </div>
+  {{ end }}
 
   {{ end }}
-  </div>
+</div>
 {{ end }}
 {{ end }}
