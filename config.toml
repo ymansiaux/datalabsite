@@ -19,6 +19,13 @@ footnotereturnlinkcontents = "↩"
 
 [permalinks]
     post = "/post/:year/:month/:day/:slug/"
+    apps = "/apps/:year/:month/:day/:slug/"
+    tools = "/tools/:year/:month/:day/:slug/"
+    appscategories = "/apps/categories/:title"
+    appstags = "/apps/tags/:slug"
+    blogcategories = "/blog/categories/:title"
+    blogtags = "/blog/tags/:title"
+
 
 [[menu.main]]
     name = "Nos applications"
