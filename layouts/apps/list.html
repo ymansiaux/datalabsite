@@ -19,9 +19,7 @@
     <div class="col-xs-12 col-sm-6">
       <div class="row boxlike boxlike-gray middle-xs" style = "height: 200px;">
         <div class="col-xs-4">
-            <!-- <img src = "https://ardata.fr/img/hexbin/rstudio.svg"> </img>               -->
             <img src="{{ .Params.header_image }}" height = "100px", width = "120pxx">
-            <!-- <i class="{{ .Params.header_image }}"></i> -->
            </div>
 
         <div class="col-xs-8">
@@ -29,16 +27,15 @@
             <i class="{{ .Params.header_image }}"></i>
             </h2>
               <p> {{ .Summary }} </p>
-              <!-- <p><i class="far fa-clock"></i>
-                {{ .Params.duration | markdownify }}
-              </p> -->
               <p><a href="{{ .Permalink }}" class="button">{{ i18n "more" }}</a></p>
         </div>
       </div>
-      <!-- </div> -->
     </div>
-
     {{ end }}
+  </div>
+ <div class="col-xs-12 col-md-3 post-list-extra">
+    {{ partial "sidebarapps.html" . }}
+    </div>
   </div>
 
 

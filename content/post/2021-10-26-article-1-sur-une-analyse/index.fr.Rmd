@@ -5,10 +5,12 @@ date: '2021-10-27'
 slug: article-1-sur-une-analyse
 categories:
   - analyse
+posttags:
+  - energie
 tags:
   - energie
 summary: "article de blog du datalab qui parle d'un truc trop cool"
 header_image: https://media.giphy.com/media/26ufeOvaaglizyq64/giphy.gif
 ---
 
-Coucou
+CoucouZZZ

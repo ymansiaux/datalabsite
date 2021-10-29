@@ -4,8 +4,8 @@
         <p>coucou</p>
       <h1>{{ .Title }}</h1>
       <ul>
-       {{ range $key, $value := .Site.Taxonomies.appstags.ByCount }}
-        <li><a href="/apps/tags/{{ $value.Name | urlize }}">{{ $value.Name | title }}</a> ({{ $value.Count }})</li>
+       {{ range $key, $value := .Site.Taxonomies.toolstags.ByCount }}
+        <li><a href="/tools/tags/{{ $value.Name | urlize }}">{{ $value.Name | title }}</a> ({{ $value.Count }})</li>
        {{ end }}
       </ul>
     </div>

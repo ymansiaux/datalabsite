@@ -8,8 +8,13 @@ slug: package-r-xtradata
 categories:
   - tools
   - R
+toolstags:
+  - webservice
+  - package
+
 tags:
   - webservice
+  - package
 ---
 
 Telechargez notre super package

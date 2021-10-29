@@ -8,6 +8,8 @@ slug: elections-municipales-2020
 header_image: "../img/apps/elections.jpg" 
 categories:
   - apps
+appstags:
+  - societe
 tags:
   - societe
 ---

@@ -1,0 +1,16 @@
+---
+title: Article 2
+author: Yohann Mansiaux
+date: '2021-10-29'
+slug: article-2
+categories:
+  - analyse
+posttags:
+  - airbnb
+tags:
+  - airbnb
+summary: "article sur airbnb"
+header_image: https://media.giphy.com/media/26ufeOvaaglizyq64/giphy.gif
+---
+
+airbnb

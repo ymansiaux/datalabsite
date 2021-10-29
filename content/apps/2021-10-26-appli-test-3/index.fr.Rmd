@@ -7,6 +7,9 @@ slug: appli-test-3
 header_image: "../img/apps/random.jpg"
 categories:
   - apps
+appstags:
+  - energie
 tags:
   - energie
 ---
+
