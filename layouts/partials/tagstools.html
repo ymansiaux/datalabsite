@@ -5,8 +5,7 @@
       <ul class="tags">
         {{ range $name, $items := .Site.Taxonomies.toolstags }}
 
-        <li class="tag"><a href="{{ $.Site.BaseURL }}/tools/tags/{{ $name | urlize | lower }}">{{ $name }} ({{ len $items }})</a></li>
-
+        <li class="tag"><a href="/tools/tags/{{ $name | urlize | lower }}">{{ $name }} ({{ len $items }})</a></li>
        {{ end }}
       </ul>
     </ul>

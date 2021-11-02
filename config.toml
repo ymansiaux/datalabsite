@@ -1,7 +1,7 @@
 languageCode = "fr"
 DefaultContentLanguage = "fr"
 
-baseURL = "/"
+baseURL = "rstudio-connect.bordeaux-it.fr/datalabsite/"
 relativeurls = true
 
 enableEmoji = true
