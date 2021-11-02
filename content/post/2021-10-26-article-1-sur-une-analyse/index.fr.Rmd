@@ -10,7 +10,7 @@ posttags:
 tags:
   - energie
 summary: "Cet article propose une analyse des données de scraping Airbnb. Cliquez pour avoir plus d'info"
-header_image: https://media.giphy.com/media/26ufeOvaaglizyq64/giphy.gif
+header_image: https://media2.giphy.com/media/l0IylQoMkcbZUbtKw/giphy.gif?cid=ecf05e47k2h8crwxk5agpctmmtqg5gk3jakbuugt9ior2o08&rid=giphy.gif&ct=g
 ---
 
 CoucouZZZ

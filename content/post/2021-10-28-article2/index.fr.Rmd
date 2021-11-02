@@ -10,7 +10,7 @@ posttags:
 tags:
   - airbnb
 summary: "Article sur un sujet qu'il reste encore à définir"
-header_image: https://media.giphy.com/media/26ufeOvaaglizyq64/giphy.gif
+header_image: https://media1.giphy.com/media/KZTVWdoCudaGRK7Pwr/giphy.gif?cid=ecf05e474d8dd1qjlapzbs4m9hkczyascdytc3gzdvg24psi&rid=giphy.gif&ct=g
 ---
 
 airbnb
