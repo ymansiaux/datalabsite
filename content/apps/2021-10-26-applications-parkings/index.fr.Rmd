@@ -6,7 +6,9 @@ date: '2021-10-26'
 slug: applications-parkings
 header_image: "../img/apps/parking2.jpg"
 categories:
-  - apps
+  - toto
+appstags:
+  - mobilite
 tags:
   - mobilite
 ---

@@ -1,0 +1,35 @@
+<div class="container page-body">
+  <div class="row">
+    <div class="col-12">
+      <h1>{{ .Title }}</h1>
+      <ul>
+       {{ range $key, $value := .Site.Taxonomies.posttags.ByCount }}
+        <li><a href="/post/tags/{{ $value.Name | urlize }}">{{ $value.Name | title }}</a> ({{ $value.Count }})</li>
+       {{ end }}
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- {{ if .Site.Params.widgets.appstags }}
+{{ if isset .Site.Taxonomies "appstags" }}
+{{ if not (eq (len .Site.Taxonomies.appstags) 0) }}
+{{ $lang := .Page.Lang }}
+
+<h3>{{ i18n "categoriesTitle" }}</h3>
+
+<div class="tags-container">
+    <ul class="tags">
+        {{ $posts := where .Site.Pages "Type" "post" }}
+        {{ range $name, $items := .Site.Taxonomies.appstags }}
+        {{ if eq $lang "en" }}
+          <li class="tag"><a href="{{ $.Site.BaseURL }}{{ $lang }}/apps/tags/{{ $name | urlize | lower }}">{{ $name }} ({{ len $items }})</a></li>
+        {{ else }}
+          <li class="tag"><a href="{{ $.Site.BaseURL }}/apps/tags/{{ $name | urlize | lower }}">{{ $name }} ({{ len $items }})</a></li>
+        {{ end }}
+        {{ end }}
+    </ul>
+</div>
+{{ end }}
+{{ end }}
+{{ end }} -->

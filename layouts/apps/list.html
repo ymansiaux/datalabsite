@@ -4,11 +4,14 @@
 
   <h1 class="page-title">{{ .Title }}</h1>
 
-  <div class="row">
+  <!-- <div class="row">
     <div class="col-xs-12 col-md-12">
       {{ .Content }}
     </div>
-  </div>
+  </div> -->
+
+  <div class="row top-xs">
+    <div class="col-xs-12 col-sm-10">
 
   <h1>{{ i18n "applist" }}</h1>
   <div class="row top-xs">
@@ -17,30 +20,30 @@
     {{ range $paginator.Pages }}
 
     <div class="col-xs-12 col-sm-6">
-      <div class="row boxlike boxlike-gray middle-xs" style = "height: 200px;">
-        <div class="col-xs-4">
-            <!-- <img src = "https://ardata.fr/img/hexbin/rstudio.svg"> </img>               -->
-            <img src="{{ .Params.header_image }}" height = "100px", width = "120pxx">
-            <!-- <i class="{{ .Params.header_image }}"></i> -->
+      <div class="boxlike boxlike-gray boxlike-min500">
+        <div class="row center-xs">
+        <div class="col-xs-4"  style="display: flex;  align-items: center;">
+            <img src="{{ .Params.header_image }}">
            </div>
 
         <div class="col-xs-8">
           <h2><a href="{{ .Permalink }}">{{ .Title }}</a>
-            <i class="{{ .Params.header_image }}"></i>
+            <!-- <i class="{{ .Params.header_image }}"></i> -->
             </h2>
               <p> {{ .Summary }} </p>
-              <!-- <p><i class="far fa-clock"></i>
-                {{ .Params.duration | markdownify }}
-              </p> -->
               <p><a href="{{ .Permalink }}" class="button">{{ i18n "more" }}</a></p>
         </div>
       </div>
-      <!-- </div> -->
     </div>
-
+    </div>
     {{ end }}
   </div>
-
+</div>
+  <div class="col-xs-12 col-sm-2  post-list-extra">
+ <!-- <div class="col-xs-12 col-md-3 post-list-extra"> -->
+    {{ partial "sidebarapps.html" . }}
+    </div>
+  </div>
 
 </main>
 

@@ -1,3 +1,18 @@
+<!-- <h3>{{ i18n "categoriesTitle" }}</h3> -->
+
+<div class="tags-container">
+      <h1>{{ .Title }}</h1>
+      <ul class="tags">
+        {{ range $name, $items := .Site.Taxonomies.appstags }}
+
+        <li class="tag"><a href="{{ $.Site.BaseURL }}/apps/tags/{{ $name | urlize | lower }}">{{ $name }} ({{ len $items }})</a></li>
+
+       {{ end }}
+      </ul>
+    </ul>
+</div>
+
+
 <!-- {{ if .Site.Params.widgets.tags }}
 {{ if isset .Site.Taxonomies "tags" }}
 {{ if not (eq (len .Site.Taxonomies.tags) 0) }}

@@ -14,11 +14,20 @@ disqusShortname = ""
 
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
-preserveTaxonomyNames = true
+# preserveTaxonomyNames = true
 footnotereturnlinkcontents = "↩"
 
 [permalinks]
     post = "/post/:year/:month/:day/:slug/"
+    apps = "/apps/:year/:month/:day/:slug/"
+    tools = "/tools/:year/:month/:day/:slug/"
+    appscategories = "/apps/categories/:slug"
+    appstags = "/apps/tags/:slug"
+    postcategories = "/post/categories/:slug"
+    posttags = "/post/tags/:slug"
+    toolscategories = "/tools/categories/:slug"
+    toolstags = "/tools/tags/:slug"
+
 
 [[menu.main]]
     name = "Nos applications"
@@ -81,4 +90,11 @@ footnotereturnlinkcontents = "↩"
     enable = true
 [params.recent_posts]
     enable = true
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  appstag = "appstags"
+  posttag = "posttags"
+  toolstag = "toolstags"
 
