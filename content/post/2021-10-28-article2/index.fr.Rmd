@@ -9,7 +9,7 @@ posttags:
   - airbnb
 tags:
   - airbnb
-summary: "article sur airbnb"
+summary: "Article sur un sujet qu'il reste encore à définir"
 header_image: https://media.giphy.com/media/26ufeOvaaglizyq64/giphy.gif
 ---
 

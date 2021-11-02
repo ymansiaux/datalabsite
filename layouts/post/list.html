@@ -11,7 +11,7 @@
   <h1>{{ i18n "publist" }}</h1>
 
   <div class="row top-xs">
-    <div class="col-xs-12 col-md-9">
+    <div class="col-xs-12 col-sm-10">
       <div>
         {{ $paginator := .Paginate (where .Pages "Type" "post") }}
         {{ template "_internal/pagination.html" . }}
@@ -23,13 +23,13 @@
           </div>
 
           <div class="col-xs-7">
-
+            <p>
             {{ if ( (isset $element.Params "manualsummary")) }}
               {{ $element.Params.manualsummary | markdownify }}
             {{ else }}
               {{ $element.Summary }}
             {{ end }}
-
+          </p>
             <p><small><i>{{ .Date.Format "2006/01/02" }}</i></small></p>
 
             <p><a href="{{ $element.Permalink }}" class="button">{{ i18n "readthis" }}</a></p>
@@ -40,14 +40,13 @@
         {{ end }}
       </div>
     </div>
-    <div class="col-xs-12 col-md-3 post-list-extra">
-    {{ partial "sidebar.html" . }}
+
+
+  <div class="col-xs-12 col-sm-2  post-list-extra">
+    {{ partial "sidebarpost.html" . }}
     </div>
   </div>
 
-  <div class="col-xs-12 col-md-3 post-list-extra">
-    {{ partial "sidebarpost.html" . }}
-    </div>
 </main>
 
 {{ partial "footer.html" . }}
