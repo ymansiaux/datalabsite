@@ -1,0 +1,5 @@
+library(blogdown)
+check_config()
+check_gitignore()
+check_hugo()
+check_content()

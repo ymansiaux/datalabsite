@@ -1,7 +1,7 @@
 languageCode = "fr"
 DefaultContentLanguage = "fr"
 
-baseURL = "rstudio-connect.bordeaux-it.fr/datalabsite/"
+baseURL = "/"
 relativeurls = true
 
 enableEmoji = true
@@ -12,7 +12,7 @@ theme = "hugo-xmin"
 googleAnalytics = ""
 disqusShortname = ""
 
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "\\.knit\\.md$", "\\.utf8\\.md$", "_cache$"]
 
 # preserveTaxonomyNames = true
 footnotereturnlinkcontents = "↩"
@@ -98,3 +98,8 @@ footnotereturnlinkcontents = "↩"
   posttag = "posttags"
   toolstag = "toolstags"
 
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
